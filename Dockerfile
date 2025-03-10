@@ -14,9 +14,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Define environment variable (Optional: You can pass them via docker run too)
-ENV BOT_TOKEN= 7721911699:AAE-jJNg20G6i27RWh2bk1M0R2kY9Au7-6M
-ENV GOOGLE_SHEET_ID= 1wqFxTWyV2WsvilTr5n0dsYAxUCUrJ9VFnjOoOPu4YpM
-ENV GOOGLE_SHEET_NAME= spend-expense-tracker
+ENV BOT_TOKEN="7721911699:AAE-jJNg20G6i27RWh2bk1M0R2kY9Au7-6M"
+ENV GOOGLE_SHEET_ID="1wqFxTWyV2WsvilTr5n0dsYAxUCUrJ9VFnjOoOPu4YpM"
+ENV GOOGLE_SHEET_NAME="spend-expense-tracker"
+
 
 # Run bot.py when the container launches
 CMD ["python", "bot.py"]
