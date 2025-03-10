@@ -1,5 +1,11 @@
-echo "spendexpensetracker-1152d44c4271.json" >> .gitignore
-.env
 __pycache__/
 *.pyc
+
+# Environment variables
+.env
+
+# Logs
 *.log
+
+# Google Cloud credentials
+spendexpensetracker-1152d44c4271.json
