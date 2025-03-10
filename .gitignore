@@ -1,0 +1,5 @@
+echo "spendexpensetracker-1152d44c4271.json" >> .gitignore
+.env
+__pycache__/
+*.pyc
+*.log
